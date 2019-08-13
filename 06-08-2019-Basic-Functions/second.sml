@@ -1,4 +1,4 @@
-fst : 'a * 'b * 'c -> 'a 
+(*fst : 'a * 'b * 'c -> 'a 
 	1.
 		fun fst ____ = ______: 'a * 'b * 'c -> 'a 
 
@@ -8,13 +8,16 @@ fst : 'a * 'b * 'c -> 'a
 	3.
 		fun fst (x,y,z) = x
 
+*)
+fun fst (x,y,z) = x;
 
 
 
 
 
 
-snd : 'a * 'b * 'c -> 'b 
+
+(* snd : 'a * 'b * 'c -> 'b 
 
 	1.
 		fun snd ____ = ____ : 'a * 'b * 'c -> 'b 
@@ -23,9 +26,12 @@ snd : 'a * 'b * 'c -> 'b
 	3.
 		fun snd (x,y,z) = y
 
+*)
+fun snd (x,y,z) = y;
 
 
-thd : 'a * 'b * 'c -> 'c
+
+(* thd : 'a * 'b * 'c -> 'c
 
 	1.
 		fun thd ____ = ____ : 'a * 'b * 'c -> 'c 
@@ -34,5 +40,7 @@ thd : 'a * 'b * 'c -> 'c
 	3.
 		fun thd (x,y,z) = z
 
+*)
+fun thd (x,y,z) = z;
 
 
