@@ -1,3 +1,5 @@
+fun f x y =y;
+
 fun  foldr f(x::xs) y = f x (foldr f xs y)
   |  foldr f [] y = y;
 
