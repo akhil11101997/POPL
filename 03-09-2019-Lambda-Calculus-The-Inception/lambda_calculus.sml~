@@ -1,0 +1,5 @@
+datatype expr = V String
+       | A expr expr
+       | L String expr
+	 
+	 
