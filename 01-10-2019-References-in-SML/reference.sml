@@ -5,7 +5,7 @@ signature COUNTER = sig
 end
 
 
-structure counter: COUNTER = struct
+structure countme: COUNTER = struct
      
      val x = ref 0;
      fun incr () = x:= (!x+1);
@@ -14,7 +14,7 @@ structure counter: COUNTER = struct
 end
 
 
-functor mycounter(): COUNTER  = struct
+functor funcount(): COUNTER  = struct
      
      val x = ref 0;
      fun incr () = x:= (!x+1);
